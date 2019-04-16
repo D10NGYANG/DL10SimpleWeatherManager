@@ -91,5 +91,12 @@ DLSimpleWeatherUtils.checkWeather(onGetWeatherListener);
 ```
 ## 结果
 ![在这里插入图片描述](/img/3.png)
+
 天气代码对应天气图标，去中国天气网站找就可以了，当然我的demo里面也会有项目里使用到的。
+
+## 混淆
+直接keep就好了
+```java
+-keep class com.dlong.rep.dlsimpleweathermanager.** {*;}
+```
 

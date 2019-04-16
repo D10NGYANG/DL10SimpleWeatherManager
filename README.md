@@ -6,7 +6,7 @@ CSDN：https://blog.csdn.net/sinat_38184748/article/details/89330588
 
 # 前言
 由于项目需要读取用户当前位置，然后在首页显示一些简单的天气信息，整理了一个工具，方便其他项目的统一使用；
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416111318394.png =400x)
+![在这里插入图片描述](/img/1.png)
 # 使用方法
 ## 添加依赖
 导入**dlsimpleweathermanager-release-1.0.0.aar**文件到**libs**
@@ -46,7 +46,7 @@ DLSimpleWeatherUtils.checkWeather(location.getLatitude(), location.getLongitude(
 经纬度的标准码说明可以查看这个链接 
 [安卓定位及坐标转换](http://jp1017.top/2016/05/23/%E5%AE%89%E5%8D%93%E5%AE%9A%E4%BD%8D%E5%8F%8A%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2/)
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019041611413817.png =700x)不带经纬度信息查询天气，这样子会自动根据IP地址去查询经纬度，但是这样的结果并不会十分准确，偏差比较大，只适合实在无法获取定位的时候再使用。
+![在这里插入图片描述](/img/2.png)不带经纬度信息查询天气，这样子会自动根据IP地址去查询经纬度，但是这样的结果并不会十分准确，偏差比较大，只适合实在无法获取定位的时候再使用。
 
 ```java
 DLSimpleWeatherUtils.checkWeather(onGetWeatherListener);
@@ -90,6 +90,6 @@ DLSimpleWeatherUtils.checkWeather(onGetWeatherListener);
     };
 ```
 ## 结果
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190416114802886.png =300x)
+![在这里插入图片描述](/img/3.png)
 天气代码对应天气图标，去中国天气网站找就可以了，当然我的demo里面也会有项目里使用到的。
 
